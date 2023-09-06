@@ -1,0 +1,65 @@
+{
+  "InputParameters": {
+    "PayorName": "caresource",
+    "PayorId": 20,
+    "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+    "AppName": "Revenue Cycle Management",
+    "WebsiteId": "2",
+    "ProcCodes": [
+      "D0120"
+
+    ],
+    "ScheduleId": 0
+  },
+  "PatientData": [
+    {
+      "EncounterId": 20230412149057,
+      "EligibilityVerificationId": 14397,
+      "PatientId": "36185",
+      "AppointmentId": "",
+      "LastName": "Gomez",
+      "FirstName": "Mayalen",
+      "BirthDate": "05/14/2013",
+      "Relationship": "",
+      "PatientMemberId": "",
+      "SubscriberId": "",
+      "SubscriberFirstName": "",
+      "SubscriberLastName": "",
+      "SubscriberBirthDate": "",
+      "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+      "ClinicNum": "3",
+      "DateOfService":"06/28/2023",
+      "RcmGridViewId": "1234"
+    }
+  ],
+  "Login": {
+    "Url": "https://pwp.sciondental.com/PWP/Landing",
+    "LoginId": "VSBPK",
+    "Password": "WelcomeMarch2023#",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+    {
+      "XPath": "{\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='UserName']\",\"PasswordXpath\":\"//*[@id='Password']\",\"LoginButtonXpath\":\"//*[@type='submit']\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\",\"OtpRequired\":false}]}",
+      "DataContextName": "EligibilityLogin"
+    },
+    {
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"EncounterId\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[1]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PatientName\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[3]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DOB\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[4]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ProviderName\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[5]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DateOfService\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[6]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DatePaid\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[7]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ClaimStatus\",\"waitTime\":0},\"xpath\":\"//td[contains(text(),'%s')]/parent::tr/td[11]!@DateOfService\"},{\"AdditonalInfo\":{\"Click\":[\"//td[contains(text(),'%s')]/parent::tr/td[13]!@DateOfService\"],\"fileds\":[],\"waitTime\":10},\"xpath\":\"//abcd\"}]}",
+      "IsActive": true,
+      "DataContextName": "RcmEobClaimMaster"
+    },
+    {
+      "XPath": "{\"AllowPdfMerging\": true, \"forCore\": true, \"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": []}, \"xpath\": \"\"}]}",
+      "DataContextName": "EligibilityFiles"
+     }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 19,
+      "EligibilityPayorInfoId": 20,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//*[@id='linkClaims']\",\"//*[@id='linkClaimSearch']\"],\"sleep\":2,\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//*[@id='ClaimSearchButton']\",\"PostSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":10}}},\"Queries\":[{\"Data\":\"FirstName\",\"Xpath\":\"//input[@id='firstNameTextBox']\"},{\"Data\":\"LastName\",\"Xpath\":\"//input[@id='lastNameTextBox']\"},{\"Data\":\"SubscriberId\",\"Xpath\":\"//input[@id='subscriberIdTextBox']\"}]}}",
+      "IsActive": true
+    }
+  ]
+}

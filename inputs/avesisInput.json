@@ -1,0 +1,92 @@
+{
+  "InputParameters": {
+    "PayorName": "avesis",
+    "PayorId": 20,
+    "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+    "AppName": "Eligibility",
+    "WebsiteId": "2",
+    "ProcCodes": [
+      "D0120",
+      "D0140",
+      "D0150",
+      "D0170",
+      "D0210",
+      "D0220",
+      "D0230",
+      "D0240",
+      "D0272",
+      "D0274",
+      "D0330",
+      "D1110",
+      "D1120",
+      "D1206",
+      "D1208",
+      "D1351",
+      "D1354",
+      "D1516",
+      "D1517",
+      "D2140",
+      "D2150",
+      "D2160",
+      "D2161",
+      "D2391",
+      "D2392",
+      "D2393",
+      "D2394",
+      "D2930",
+      "D2933",
+      "D2934",
+      "D3220",
+      "D7140",
+      "D9110",
+      "D9230"
+    ],
+    "ScheduleId": 0
+  },
+  "PatientData": [
+    {
+      "SSN": 329961926,
+      "EligibilityVerificationId": 14397,
+      "PatientId": "36185",
+      "AppointmentId": "",
+      "LastName": "Muller",
+      "FirstName": "Ziana",
+      "BirthDate": "04/11/1999",
+      "Relationship": "",
+      "PatientMemberId": "",
+      "SubscriberId": "",
+      "SubscriberFirstName": "",
+      "SubscriberLastName": "",
+      "SubscriberBirthDate": "",
+      "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+      "ClinicNum": "3",
+      "DateOfService":"06/28/2023"
+    }
+  ],
+  "Login": {
+    "Url": "https://www.avesis.com/government3/provider/index.aspx?changedetails*success",
+    "LoginId": "bpkinsver2",
+    "Password": "Welcome2022$$",
+    "OtpRequired": false,
+    "OtpEmail": "TODO"
+  },
+  "Xpaths": [
+    {
+      "XPath": "{\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='TxtUserName']\",\"PasswordXpath\":\"//*[@id='TxtPwd']\",\"LoginButtonXpath\":\"//*[@id='BtnLogin']\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"AdditonalInfo\":{\"aftersleep\":5},\"PostSteps\":{\"Clicks\":[\"//*[@id='btnNextStep1']\"],\"AdditonalInfo\":{\"aftersleep\":5}},\"OtpXpath\":\"\",\"OtpRequired\":false}]}",
+      "DataContextName": "EligibilityLogin"
+    },
+    {
+      "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"EligibleAsOfDate\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[1]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Member\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[2]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DOB\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[3]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MemberName\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[4]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"EffectiveDates\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[6]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"ParentGroup\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[7]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"GroupName\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[9]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CoverageType\",\"waitTime\":0},\"xpath\":\"//*[@id='gvMembers']/tbody/tr[2]/td[10]\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":[],\"ElementScreenshot\":\"//*[@id='gvMembers']\"},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":[\"//*[@id='gvMembers']/tbody/tr[2]/td[8]/input\"],\"fileds\":[],\"aftersleep\":5},\"xpath\":\"\"},{\"AdditonalInfo\":{\"Click\":[\"//*[@id='btnPrintAll']\"],\"fileds\":[],\"aftersleep\":5},\"xpath\":\"\"}]}",
+      "IsActive": true,
+      "DataContextName": "EligibilityPatientVerfication"
+    }
+  ],
+  "SearchParameters": [
+    {
+      "Id": 19,
+      "EligibilityPayorInfoId": 20,
+      "JsonSettings": "{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[\"//*[@id='click-no']\",\"//*[@id='panelModal']/div/div[1]/div/button\",\"//*[@id='MainContent_SearchEligibility']/a/div/div\"],\"sleep\":2,\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//*[@id='BtnSearchForMembers']\",\"PostSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"BirthDate\",\"Xpath\":\"//*[@id='MainContent_rptrSearch_txtDateOfBirth_0']\"},{\"Data\":\"SSN\",\"Xpath\":\"//*[@id='MainContent_rptrSearch_txtSsn_0']\"},{\"Data\":\"LastName\",\"Xpath\":\"//*[@id='MainContent_rptrSearch_txtLastName_0']\"},{\"Data\":\"FirstName\",\"Xpath\":\"//*[@id='MainContent_rptrSearch_txtFirstName_0]\"}]}}",
+      "IsActive": true
+    }
+  ]
+}

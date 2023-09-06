@@ -1,0 +1,135 @@
+{
+    "InputParameters": {
+        "PayorName": "Sunlife Connect",
+        "PayorId": 0,
+        "ClientId": "88b80500-d5a9-4c40-a753-34e43695c69e",
+        "AppName": "Eligibility",
+        "RcmClaimNumber": "234378",
+        "RcmClinicId": "41e9bf05-7b4c-46ac-8d15-8cfecd970297",
+        "WebsiteId":"SunlifeFinancial_001",
+        "ProcCodes": [
+            "D0150",
+            "D0120",
+            "D0140",
+            "D0170",
+            "D9110",
+            "D0220",
+            "D0230",
+            "D0272",
+            "D0274",
+            "D0210",
+            "D0330",
+            "D0240",
+            "D1110",
+            "D1120",
+            "D1206",
+            "D1208",
+            "D1351",
+            "D1354",
+            "D1516",
+            "D1517",
+            "D2140",
+            "D2150",
+            "D2160",
+            "D2161",
+            "D2391",
+            "D2392",
+            "D2393",
+            "D2394",
+            "D7140",
+            "D3220",
+            "D2930",
+            "D2933",
+            "D2934",
+            "D9230"
+      ]
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 14397,
+            "PatientId": "",
+            "AppointmentId": "",
+            "LastName": "Swinford",
+            "FirstName": "Ellye",
+            "BirthDate": "04/07/2020",
+            "Relationship": "Child",
+            "PatientMemberId": "021662601",
+            "SubscriberId": "021662601",
+            "SubscriberFirstName": "TYSON",
+            "SubscriberLastName": "SWINFORD",
+            "SubscriberBirthDate": "06/03/1988",
+            "ClinicServerId": "8d9d8527-8ee6-4697-8f41-4415ca6a26c0",
+            "ClinicNum": "3"
+        }
+    ],
+    "Login": {
+        "Url": "https://login.sunlifeconnect.com/commonlogin/#/login/10",
+        "LoginId": "PayoraccessSDB",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "",
+        "OtpEmailPassword": "",
+        "EmailProvierUrl": ""
+    },
+    "Xpaths": [
+        {
+            "Id": 16,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 196,
+            "XPath": "{\"DataContextId\":\"1\",\"DataContextName\":\"EligibilityLogin\",\"Click\":null,\"Xpaths\":[{\"UsernameXpath\":\"//*[@id='USERNAME']\",\"PasswordXpath\":\"//*[@id='PASSWORD']\",\"LoginButtonXpath\":\"//button[contains(text(),'Sign in')]\",\"OtpInputXpath\":\"\",\"OtpSubmitXpath\":\"\",\"PreSteps\":[],\"PostSteps\":[],\"OtpXpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 0
+        },      
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"IdNumber\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Member ID')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PlanYear\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Plan year')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PolicyName\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Policy name')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"PolicyNumber\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Policy number')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"MissingTeeth\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Missing teeth')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Network\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(text(), 'Network')]/following-sibling::div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Name\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[./div/span[contains(text(), '{FirstName}')] and ./div/span[contains(text(), '{BirthDate}')]]/div/span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"RelationShip\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[./div/span[contains(text(), '{FirstName}')] and ./div/span[contains(text(), '{BirthDate}')]]/div[3]/span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DOB\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[./div/span[contains(text(), '{FirstName}')] and ./div/span[contains(text(), '{BirthDate}')]]/div[4]/span\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"CoveredSince\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[./div/span[contains(text(), '{FirstName}')] and ./div/span[contains(text(), '{BirthDate}')]]/div[5]/span\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityPatientVerification",
+            "ProductCategoryId": 2
+        },      
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"DependentCoverageToAge\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Dependent coverage')]]//following-sibling::div/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticCoverage\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Orthodontic coverage')]]//following-sibling::div/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"Benefits as of\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Benefits as of')]] \"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualDeductibles\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Annual Deductible')]]/div[contains(., 'out of')]/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"FamilyDeductible\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Family Deductible')]]/div[contains(., 'out of')]/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"AnnualMaximum\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Annual Maximum')]]/div[contains(., 'out of')]/div\"},{\"AdditonalInfo\":{\"Click\":[],\"fileds\":\"OrthodonticLifetimeMaximum\"},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//div[contains(@id, 'deductibles-and-maximums')]//div[./div[contains(text(), 'Orthodontia Lifetime Maximum')]]/div[contains(., 'out of')]/div\"},{\"AdditonalInfo\":{\"Click\":[\"//span//div[contains(text(), 'Plan details')] \"],\"fileds\":\"\"},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityDeductiblesProcCode",
+            "ProductCategoryId": 2
+        },      
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":\"\",\"fileds\":[\"Service\",\"code\",\"Frequency\",\"Waiting Period\",\"Co-Insurance\",\"Deductible\",\"\"]},\"xpath\":\"//div[contains(@id, 'page-wrapper')]//table\"}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityBenefits",
+            "ProductCategoryId": 2
+        },      
+        {
+            "Id": 20,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 12,
+            "DataContextId": 177,
+            "XPath": "{\"Scrapping\":false,\"Xpaths\":[{\"AdditonalInfo\":{\"Click\":[\"//ul//li/a/span[contains(text(), 'MEMBER SEARCH')]\"],\"fileds\":[]},\"xpath\":\"\"}]}",
+            "IsActive": true,
+            "DataContextName": "SearchDashboardFilter",
+            "ProductCategoryId": 2
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 2,
+            "EligibilityPayorInfoId": 12,
+            "JsonSettings":"{\"Search\":{\"Settings\":{\"PreSteps\":{\"Clicks\":[],\"AdditonalInfo\":{\"aftersleep\":2}},\"SearchButtonXpath\":\"//*[@value='Search']\",\"PostSteps\":{\"Clicks\":[\"//span//div[contains(text(), 'Benefit summary')]\",\"//div[contains(@id, 'deductibles-and-maximums')]//div//span[contains(@class, 'ant-dropdown-trigger')]\",\"//ul//li//span[contains(text(), '{FirstName}')]\"],\"AdditonalInfo\":{\"aftersleep\":5}}},\"Queries\":[{\"Data\":\"SubscriberId\",\"Xpath\":\"//*[@placeholder='Member ID / SSN']\",\"sleep\":1}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ]
+  }

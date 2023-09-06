@@ -1,0 +1,579 @@
+{
+    "EligibilityPatientVerification": [
+        {
+            "IdNumber": "021662601",
+            "PlanYear": "01/01/2023 - 12/31/2023",
+            "PolicyName": "Aethon Energy Operating LLC",
+            "PolicyNumber": "956872",
+            "MissingTeeth": "Yes, covered ",
+            "Network": "Sun Life Dental Network\u00ae",
+            "Name": "Ellye",
+            "RelationShip": "Child",
+            "DOB": "04/07/2020",
+            "CoveredSince": "01/01/2023"
+        }
+    ],
+    "EligibilityDeductiblesProcCode": [
+        {
+            "DependentCoverageToAge": "",
+            "OrthodonticCoverage": "",
+            "Benefits as of": "Benefits as of 06/07/2023",
+            "AnnualDeductibles": "",
+            "FamilyDeductible": "",
+            "AnnualMaximum": "$217.00 out of $3,000.00",
+            "OrthodonticLifetimeMaximum": "$0.00 out of $2,000.00"
+        }
+    ],
+    "EligibilityBenefits": [
+        {
+            "Service": "Examsperiodic oral evaluation",
+            "code": "D0120",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Examslimited oral evaluation",
+            "code": "D0140",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Examscomprehensive oral evaluation",
+            "code": "D0150",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Raysintraoral - complete series (including bitewings)",
+            "code": "D0210",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Raysintraoral - periapical first film",
+            "code": "D0220",
+            "Frequency": "four every 12 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Raysintraoral - periapical each additional film",
+            "code": "D0230",
+            "Frequency": "four every 12 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Raysbitewings - two films",
+            "code": "D0272",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Raysbitewings - four films",
+            "code": "D0274",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "X-Rayspanoramic film",
+            "code": "D0330",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Cleaningsprophylaxis - adult",
+            "code": "D1110",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": "More"
+        },
+        {
+            "Service": "Cleaningsprophylaxis - child",
+            "code": "D1120",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": "More"
+        },
+        {
+            "Service": "Fluoridetopical fluoride varnish, up to age 19",
+            "code": "D1206",
+            "Frequency": "one every 6 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Fluoridetopical application of fluoride, up to age 19",
+            "code": "D1208",
+            "Frequency": "one every 6 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Sealantssealant - per tooth, up to age 14",
+            "code": "D1351",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Space Maintainersspace maintainer - fixed - unilateral per quadrant, up to age 19",
+            "code": "D1510",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Space Maintainersspace maintainer - fixed - bilateral, maxillary, up to age 19",
+            "code": "D1516",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Space Maintainersspace maintainer - fixed - bilateral, mandibular, up to age 19",
+            "code": "D1517",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "FillingsAmalgam",
+            "code": "",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "FillingsComposite",
+            "code": "",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Inlays / Onlays",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Crowns",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Stainless Steel Crownsstainless steel crown - primary tooth, up to age 19",
+            "code": "D2930",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Stainless Steel Crownsstainless steel crown - permanent tooth, up to age 19",
+            "code": "D2931",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Build-up / Post and Corecore buildup, including any pins",
+            "code": "D2950",
+            "Frequency": "one every 120 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Build-up / Post and Coreprefabricated post and core in addition to crown",
+            "code": "D2954",
+            "Frequency": "one every 120 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodontictherapeutic pulpotomy",
+            "code": "D3220",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticendodontic therapy, anterior tooth",
+            "code": "D3310",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticendodontic therapy, premolar tooth",
+            "code": "D3320",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticendodontic therapy, molar tooth",
+            "code": "D3330",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticretreatment - anterior",
+            "code": "D3346",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticretreatment - premolar",
+            "code": "D3347",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Endodonticretreatment - molar",
+            "code": "D3348",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsgingivectomy or gingivoplasty",
+            "code": "D4210",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsgingival flap procedure",
+            "code": "D4240",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsclinical crown lengthening",
+            "code": "D4249",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsosseous surgery",
+            "code": "D4260",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsbone replacement graft-retained natural tooth-first site in quadrant",
+            "code": "D4263",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsguided tissue regeneration",
+            "code": "D4266",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsautogenous connective tissue graft procedures, first tooth",
+            "code": "D4273",
+            "Frequency": "one every 36 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsperiodontal scaling and root planing",
+            "code": "D4341",
+            "Frequency": "one every 24 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticslocalized delivery of antimicrobial agents",
+            "code": "D4381",
+            "Frequency": "one every 12 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Periodonticsperiodontal maintenance",
+            "code": "D4910",
+            "Frequency": "two per calendar year",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "DenturesAdjustments",
+            "code": "",
+            "Frequency": "one every 12 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "DenturesComplete",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "DenturesPartial",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Implants",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Bridges",
+            "code": "",
+            "Frequency": "one every 60 months",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": "More"
+        },
+        {
+            "Service": "Oral Surgeryextraction",
+            "code": "D7140",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Oral Surgeryextraction of erupted tooth",
+            "code": "D7210",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Oral Surgeryremoval of impacted tooth - soft tissue",
+            "code": "D7220",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Oral Surgeryremoval of impacted tooth - partially bony",
+            "code": "D7230",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Oral Surgeryremoval of impacted tooth - completely bony",
+            "code": "D7240",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Oral Surgeryremoval of residual tooth roots",
+            "code": "D7250",
+            "Frequency": "one per the lifetime of the plan",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "TMJ",
+            "code": "",
+            "Frequency": "",
+            "Waiting Period": "",
+            "Co-Insurance": "",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "OrthodonticsApplies to children only, see certificate of insurance for details",
+            "code": "D8570",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 50%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Anesthesiadeep sedation/general anesthesia first 15 minutes",
+            "code": "D9222",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Anesthesiadeep sedation/general anesthesia each subsequent 15 minute increment",
+            "code": "D9223",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Anesthesiaintravenous moderate (conscious) sedation/analgesia- first 15 minutes",
+            "code": "D9239",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Anesthesiaintravenous moderate (conscious) sedation/analgesia each subsequent 15 minute increment",
+            "code": "D9243",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 80%",
+            "Deductible": "After thedeductible\u00a0is met",
+            "": NaN
+        },
+        {
+            "Service": "Consultationconsultation - diagnostic service",
+            "code": "D9310",
+            "Frequency": "",
+            "Waiting Period": "",
+            "Co-Insurance": "",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        },
+        {
+            "Service": "Miscpalliative (emergency) treatment of dental pain",
+            "code": "D9110",
+            "Frequency": "",
+            "Waiting Period": "Satisfied (01/01/2023)",
+            "Co-Insurance": "The plan covers 100%",
+            "Deductible": "Deductible does not apply",
+            "": NaN
+        }
+    ],
+    "SearchDashboardFilter": []
+}
